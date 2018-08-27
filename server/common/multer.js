@@ -1,5 +1,5 @@
-var multer  = require('multer');
+var multer = require("multer");
 
-var upload = multer({ dest: 'uploads/' });
+var upload = multer({ dest: "uploads/" });
 
 module.exports = upload;
