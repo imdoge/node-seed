@@ -1,5 +1,5 @@
-var config = require("../config");
 var Redis = require("ioredis");
+var config = require("../config");
 var logger = require("./logger");
 
 var client = new Redis({
@@ -16,4 +16,4 @@ client.on("error", function(err) {
   }
 });
 
-exports = module.exports = client;
+module.exports = client;
