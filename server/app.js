@@ -85,7 +85,7 @@ app.use(
     }),
     cookie: {
       httpOnly: true,
-      secure: true,
+      // secure: true,
       maxAge: config.session_max_age
     },
     resave: false,
